@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Carat's Bookstore</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="Home">
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #d5e0ff">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="bg2.jpg" alt="Logo" width="60" height="60"> 
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#About">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Orders">Orders</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Start Jumbotron -->
+    <section class="jumbotron text-center">
+      <h1>Welcome to Carat's Bookstore</h1>
+      <p>Your one-stop shop for all your favorite books!</p>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,224L48,213.3C96,203,192,181,288,181.3C384,181,480,203,576,181.3C672,160,768,96,864,96C960,96,1056,160,1152,186.7C1248,213,1344,203,1392,197.3L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,
+        672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- End Jumbotron -->
+
+    <!-- Start About -->
+    <section id="About" style="margin-top: 70px; position: relative;">
+    <div class="container">
+      <div class="row text-center mb-3">
+      <div class="col">
+        <h2 style="padding-top: 40px;">About</h2>
+      </div>
+      </div>
+      <div class="row justify-content-center fs-5 text-center">
+      <div class="col-6">
+        <p>Selamat datang di Carat's Bookstore, tempat di mana setiap halaman buku membawa Anda pada perjalanan tak terlupakan. 
+          Kami adalah toko buku yang didedikasikan untuk menciptakan pengalaman membaca yang menyenangkan bagi semua kalangan, 
+          dari penggemar buku klasik hingga pencinta genre modern. 
+          Di Carat's Bookstore, kami percaya bahwa setiap buku memiliki kekuatan untuk menginspirasi, mendidik, dan memperkaya kehidupan Anda.</p>
+      </div>
+      <div class="col-5">
+        <p>Dengan koleksi buku yang terus berkembang, 
+          kami menawarkan berbagai pilihan buku mulai dari fiksi, non-fiksi, 
+          hingga buku-buku spesial yang sulit ditemukan di tempat lain. 
+          Di sini, Anda tidak hanya membeli buku, tetapi juga menemukan komunitas pembaca yang berbagi kecintaan pada literasi.</p>
+      </div>
+     </div>
+   </div>
+    <!-- Poligon dengan 3 Garis Potong -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 250" style="display: block; margin-top: 20px;">
+      <!-- Garis pertama (warna lebih muda dari sebelumnya) -->
+      <path fill="#F39BB4" d="M0,150 L480,50 L960,150 L1440,50 L1440,250 L0,250 Z"></path>
+      <!-- Garis kedua (warna sedikit lebih muda) -->
+      <path fill="#F5A9C0" d="M0,170 L480,70 L960,170 L1440,70 L1440,250 L0,250 Z"></path>
+      <!-- Garis ketiga (warna lebih muda) -->
+      <path fill="#F8C8D8" d="M0,190 L480,90 L960,190 L1440,90 L1440,250 L0,250 Z"></path>
+    </svg>
+  </section>
+<!-- End About --> 
+
+    <!-- Start Orders -->
+<section id="Orders">
+  <div class="container">
+    <div class="row text-center mb-3">
+      <div class="col" style="background-color: #efd9f8; padding: 20px; border-radius: 5px; border: 1px solid #ddd; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); margin-bottom: 40px;">
+        <h2>Formulir Pemesanan</h2>
+        <p class="lead">Silakan isi formulir di bawah ini untuk melakukan pemesanan</p>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <!-- Formulir Pemesanan dengan latar belakang -->
+        <form name="Form-Pembelian" method="post" style="background-color: #f8e8ff; padding: 20px; border-radius: 5px; border: 1px solid #ddd; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); margin-bottom: 40px;">
+          <div class="mb-3">
+            <label for="name" class="form-label">Nama Lengkap</label>
+            <input type="text" class="form-control" id="name" aria-describedby="name" name="nama"/>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" aria-describedby="email" name="email" required/>
+          </div>
+          <div class="mb-3">
+            <label for="address" class="form-label">Alamat</label>
+            <textarea class="form-control" id="address" rows="3" name="alamat"></textarea>
+          </div>
+          <div class="mb-3">
+            <label for="bookTitle" class="form-label">Judul Buku</label>
+            <input type="text" class="form-control" id="bookTitle" name="judulBuku" required />
+          </div>
+          <div class="mb-3">
+            <label for="quantity" class="form-label">Jumlah Pembelian</label>
+            <input type="number" class="form-control" id="quantity" name="jumlahPembelian" required />
+          </div>
+
+          <button type="submit" class="btn btn-primary">Kirim Pesanan</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Orders -->
+
+    <!-- Start Footer -->
+<footer class="text-center py-3" style="background-color: #cbd8fc;">
+  <p><strong>Contact us at:</strong> <a href="mailto:info@caratsbookstore.com" class="text-white">info@caratsbookstore.com</a> | Phone: (+62) 888-5555-1010</p>
+  <p><strong>Visit us at:</strong> 17 Carat Street, Pledisville, SVTN 17</p>
+  
+  <p><strong>Follow Us:</strong> 
+    <a href="https://twitter.com/bookstore" class="text-white mx-2" target="_blank">Twitter</a>
+    <a href="https://instagram.com/bookstore" class="text-white mx-2" target="_blank">Instagram</a>
+    <a href="https://linkedin.com/company/bookstore" class="text-white mx-2" target="_blank">LinkedIn</a>
+  </p>
+
+  <p>&copy; 2024 Carat's Bookstore Inc.</p>
+</footer>
+<!-- End Footer -->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbyMIWs_ZQST5HkrFkQvacrCbilurFuVqAc8QJZtVACZ53gkXSdvFscBxhYvwsBoc8iSYw/exec'
+      const form = document.forms['Form-Pembelian']
+
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => console.log('Success!', response))
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+
+  </body>
+</html>

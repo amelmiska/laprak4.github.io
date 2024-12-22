@@ -1,0 +1,12 @@
+.jumbotron {
+    padding-top: 14rem;
+    background: linear-gradient(135deg, #d5a3ff, #f4c7e0, #d5e0ff, #f8e8ff);
+  }
+  
+  section {
+    padding-top: 5rem;
+  }
+  
+  .about {
+    padding-top: 12rem;
+  }
